@@ -22,9 +22,12 @@
                 @include('layouts/article')
 
                 <!-- Side widgets-->
-                @section('sidebar')
-                    @include('layouts/sidebar')
-                @show
+                <div class="col-lg-4">
+                    @section('sidebar')
+                        @include('layouts/sidebar')
+                    @show
+                </div>
+                
             </div>
         </div>
         <!-- Footer-->
